@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/whatsapp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/abc_button_padding_horizontal_material"
+        android:layout_marginRight="@dimen/abc_button_padding_horizontal_material"
+        android:text="Send to Whatsapp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/abc_button_padding_horizontal_material"
+        android:layout_marginRight="@dimen/abc_button_padding_horizontal_material"
+        android:text="Second Button"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
